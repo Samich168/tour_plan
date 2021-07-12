@@ -23,8 +23,8 @@
           <div class="header__up">  
               <div class="header__logo">Best <span>tour</span>plan</div>
               <div class="header_search">
-                   <form action="" method="get">
-                   <input class="header__search" name="s"    placeholder="Search Location |" type="search">
+                   <form method="get" class="header__form">
+                   <input class="header__search" name="s" placeholder="Search Location |" type="search">
                    <button class="header__button" type="submit">
                       <svg class="icon">
                          <use xlink:href="img/sprite.svg#search"></use>
@@ -36,11 +36,18 @@
                   <img class="profile__img" src="img/Ellipse%201.png" alt="face">
                   <span class="name">Nathan</span>
               </div>
+              <div class="header__menu">
+                <button class="menu-btn">
+                    <span class="menu-line"></span>
+                    <span class="menu-line"></span>
+                    <span class="menu-line"></span>
+                </button>
+              </div>
           </div>  
     </div>
-    <div class="header_down">
+    <div class="header__down">
         <div class="container">
-           <div class="header_links">
+           <div class="header__links">
             <div><a class="header__link" href="#">All Deals</a></div>
             <div><a class="header__link" href="#">Hotels</a></div>
             <div><a class="header__link" href="#">Activities</a></div>
@@ -52,6 +59,63 @@
         </div>   
     </div>
 </header>
+
+<div class="hotel">
+    <div class="container">
+        <div class="hotel__way">
+            <nav class="breadcrumb">
+                <ul class="breadcrumb-list">
+                  <li class="breadcrumb-list__element">
+                      <a class="breadcrumb-list__link" href="#">Home</a>
+                  </li>
+                  <li class="breadcrumb-list__element">
+                      <a class="breadcrumb-list__link" href="#"> Flash offers</a>
+                  </li>
+                  <li class="breadcrumb-list__element">
+                      Grand Hilton Hotel
+                  </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="hotel__name">
+            <div class="description">
+                <div class="stars">
+                    <svg class="star">
+                        <use xlink:href="img/sprite.svg#star"></use>
+                    </svg>
+                    <svg class="star">
+                        <use xlink:href="img/sprite.svg#star"></use>
+                    </svg>
+                    <svg class="star">
+                        <use xlink:href="img/sprite.svg#star"></use>
+                    </svg>
+                    <svg class="star">
+                        <use xlink:href="img/sprite.svg#star"></use>
+                    </svg>
+                    <svg class="star">
+                        <use xlink:href="img/sprite.svg#star"></use>
+                    </svg>
+                </div>
+                <div class="flex">
+                    <div class="hotel-name">GRAND HILTON HOTEL</div>
+                    <div class="offer"><p>Flash Offer</p></div>
+                </div>
+                <div class="hotel-specials">Half-Board/ All Inclusive + Complimentary Activities + Child Stays Free</div>
+            </div>
+            <div class="rating">
+                <span>User Rattings</span><br>
+                <p>4.5/<span>5</span></p>
+            </div>
+        </div>
+        <div class="about__hotel">
+            <div class="hotel__img">
+                <img src="img/Slider.jpg" alt="">
+            </div>
+            <div class="hotel__price"></div>
+            <div class="hotel__place"></div>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>

@@ -1,34 +1,38 @@
 .header
     height: 200px
     font-family: 'Mulish', sans-serif
-.header__up
-    height: 120px
-    display: flex
-    justify-content: space-between
-    align-items: center
-.header__logo
-    font-family: 'Luckiest Guy', cursive
-    font-size: 24px
-.header__logo
-    span
-        color: red
-.header__search
-    width: 285px
-    height: 40px
-    border: none
-    background-color:#f3f3f3
-    border-radius: 5px
-    padding-left: 20px
-    outline: none
-    position: relative
-.header__button
-    width: 65px
-    height: 40px
-    background-color: $red-color
-    border: none
-    border-radius: 0px 5px 5px 0px
-    margin-right: 10px
-    position: absolute
+    &__up 
+        height: 120px
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__logo
+        font-family: 'Luckiest Guy', cursive
+        font-size: 24px
+    &__logo
+        span
+            color: red
+    &_search
+        margin-right: 300px
+    &__search
+        width: 285px
+        height: 40px
+        border: none
+        background-color:#f3f3f3
+        border-radius: 5px
+        padding-left: 20px
+        outline: none
+        position: relative
+    &__button
+        width: 65px
+        height: 40px
+        background-color: $red-color
+        border: none
+        border-radius: 0px 5px 5px 0px
+        margin-right: 10px
+        position: absolute
+    &__menu
+        display: none
 .icon
     fill: white
     width: 16px
@@ -39,10 +43,10 @@
 .header__profile
     display: flex
     align-items: center
-.header_down
+.header__down
     background-color: #0A223D
     height: 80px
-.header_links
+.header__links
     display: flex
     justify-content: space-between
     padding-top: 30px
